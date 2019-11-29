@@ -1,0 +1,293 @@
+/* body{
+    height: 5000px;
+} */
+
+.frist a{
+    color: #fff;
+}
+.immg{
+    
+    background-image: url(../img/iimm.jpg);
+    background-size: cover;
+    height: 900px;
+    color: #fff;
+    position: relative;
+}
+.immg .mah{
+    position: absolute;
+    font-size: 40px;
+    top: 45%;
+    left: 30%;
+}
+.immg .bl{
+    height:900px;
+    width:1519.200;
+    background-color: rgba(0,0,0,0.5);
+    
+}
+/* strting about */
+.about h1{
+    text-align: center;
+    color: #008080;
+    margin: 35px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size:50px;
+}
+.about p{
+    font-size: 15px;
+    font-weight: 450;
+    
+}
+.about span{
+    color: #40E0D0;
+    font-weight: 700;
+}
+.about button{
+    color: #fff;
+    border: none;
+    margin-top: 40px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 22px;
+    padding-right: 22px;
+    background-color: #008080;
+    font-size: 18px;
+
+}
+.about .four{
+    margin-top: 60px;
+    text-align: center;
+}
+.about .c{
+    color:  #008080;
+}
+.about .n{
+    font-size: 40px;
+    font-weight: 700;
+}
+/* end about */
+
+/* strting experience */
+.experience h1{
+    text-align: center;
+    color: #008080;
+    margin: 35px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size:50px;
+
+}
+
+.experience .ex1 h2{
+    margin-top:20px ;
+    margin-bottom: 40px;
+    font-weight: 700;
+    color: #40E0D0;
+
+}
+.experience .ex1 button{
+    background: #40E0D0;
+    color: #fff;
+    font-size: 18px;
+    height: 40px;
+    padding: 0 25px;
+    line-height: 40px;
+    border: none;
+
+}
+.experience .ex2{
+    position: relative;
+}
+.experience .mm{
+    margin-top: 25px;
+}
+.experience .dd::after{
+    content: '';
+    position: absolute;
+    left:23px;
+    top:45px;
+    height: 19px;
+    width: 19px;
+    background-color: #F5F5F5;
+    border-radius: 50%;
+    border: 3px solid #ccc ;
+    z-index: 5;
+    
+}
+.experience .eex{
+    margin-top: 25px;
+    
+}
+.experience .dd {
+    color: #CCCCCC;
+    font-weight: 700;
+    font-size: 16px;
+
+}
+
+.experience .eex .p1{
+    color: #40E0D0;
+    font-weight: 700;
+    font-size: 18px;
+}
+.experience .eex .p1 span{
+    font-size: 16px;
+    color: #008080;
+    font-weight: 700;
+}
+.experience .eex::before {
+    content: '';
+    position: absolute;
+    left: -156px;
+    height: 100%;
+    border-left: 2px solid #ccc;
+    z-index: 4;
+}
+/* end experience */
+/* string portfolio */
+.portfolio {
+    text-align: center;
+}
+.portfolio h1{
+    text-align: center;
+    color: #008080;
+    margin: 35px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size:50px;
+
+}
+.portfolio h3{
+    margin-top: 20px;
+    color: #008080;
+    font-weight: 700;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+.portfolio p{
+    font-size: 14px;
+}
+.portfolio ul {
+    padding: 10px 0px 10px 0px;
+}
+.portfolio ul li{
+    font-size: 9px;
+    font-weight: 700;
+    color: #40E0D0;
+    font-family: 'Montserrat', sans-serif;
+    padding: 8px;
+    border: 2px solid #40E0D0;
+    display: inline;
+}
+
+/* end portfolio */
+/* string services  */
+.services h1{
+    text-align: center;
+    color: #008080;
+    margin: 35px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size:50px;
+
+}
+.services i{
+    color:#008080;
+    margin-bottom: 25px;;
+}
+.services h3{
+    color: #40E0D0;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: lowercase;
+}
+.services p{
+    margin-bottom:10px;
+}
+/* end services */
+/* strting testimonials */
+.testimonials{
+    margin-top: 65px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: #fff;
+}
+.testimonials .teim{
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/tes.jpg);
+    background-size: cover;
+    
+}
+.testimonials .tbl{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.55); 
+
+}
+.testimonials h1{
+    text-align: center;
+    padding-top: 20px;;
+    font-weight: bold;
+    font-size:50px;
+}
+.testimonials i{
+    padding-top:20px; 
+    font-size: 60px;;
+} 
+.carousel-indicators{
+    top:290px;
+}
+.carousel-inner{
+    top:100px;
+} 
+.carousel-inner p{
+    top:100px;
+    font-size: 50px;
+} 
+/* end testimonials */
+/* strting contact */
+.contact{
+    text-align: center;
+}
+.contact h1{
+    text-align: center;
+    color: #008080;
+    margin: 35px;
+    margin-bottom: 80px;
+    font-weight: bold;
+    font-size:50px;
+}
+.contact p{
+    font-size: 19px;
+}
+.contact ul{
+    margin:40px ;
+}
+.contact ul li{
+    display: inline;
+    margin: 20px;
+    
+}
+.contact ul li a{
+    font-size: 30px;
+    color: #000;
+}
+.contact ul li a:hover{
+    color: #40E0D0;
+    text-decoration: none;
+
+}
+
+/* end contact */
+h1::after {
+    content: '';
+    width: 50px;
+    height: 3px;
+    background: #40E0D0;
+    display: block;
+    margin: 15px auto;
+    
+}
